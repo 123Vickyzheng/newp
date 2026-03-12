@@ -262,49 +262,25 @@
 }, {
   "moduleType" : "datasource",
   "moduleName" : "sqlserver",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T08:16:42.1593857Z",
-  "resourcePaths" : [ "documents/datasource/sqlserver.json", "documents/datasource/sqlserver.metadata.json", "documents/datasource/sqlserver.refId.json", "documents/ref-object/HIZZHQFM.json", "documents/ref-object/HIZZHQFM.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "HIZZHQFM"
 }, {
   "moduleType" : "entity",
   "moduleName" : "sqlserver",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T08:16:42.1593857Z",
-  "resourcePaths" : [ "documents/entity/sqlserver", "documents/entity/sqlserver/.f.metadata.json", "documents/entity/sqlserver/.f.json", "documents/ref-object/KG1NM6WM.json", "documents/ref-object/KG1NM6WM.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "KG1NM6WM"
 }, {
   "moduleType" : "entity-relation",
   "moduleName" : "sqlserver",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T08:16:42.1603966Z",
-  "resourcePaths" : [ "documents/entity-relation/sqlserver", "documents/entity-relation/sqlserver/.f.metadata.json", "documents/entity-relation/sqlserver/.f.json", "documents/ref-object/I47GCN6O.json", "documents/ref-object/I47GCN6O.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Folder",
   "resourceId" : "I47GCN6O"
 }, {
   "moduleType" : "entity",
   "moduleName" : "sqlserver/allcolumns",
-  "state" : "New",
-  "lockedBy" : {
-    "username" : "xa-dd3-vickyzh",
-    "email" : "vicky.zheng@developertools.com"
-  },
-  "lockDateTime" : "2026-03-12T08:17:01.8769106Z",
-  "resourcePaths" : [ "documents/entity/sqlserver/allcolumns.json", "documents/entity/sqlserver/allcolumns.metadata.json", "documents/entity/sqlserver/allcolumns.refId.json", "documents/ref-object/QQUVPJPR.json", "documents/ref-object/QQUVPJPR.metadata.json" ],
+  "state" : "Unlocked",
   "resourceType" : "Document",
   "resourceId" : "QQUVPJPR"
 } ]
