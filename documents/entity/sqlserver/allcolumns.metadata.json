@@ -1,0 +1,140 @@
+{
+  "id" : "QQUVPJPR",
+  "dataSourceId" : "HIZZHQFM",
+  "schema" : "dbo",
+  "tableName" : "allcolumns",
+  "name" : "allcolumns",
+  "columns" : [ {
+    "id" : "TPM2WYDV",
+    "columnName" : "id",
+    "name" : "id",
+    "dataType" : {
+      "typeId" : "Integer"
+    },
+    "isPrimaryKey" : true,
+    "isBuiltIn" : true,
+    "columnKind" : "physical",
+    "isAutoIncrement" : true
+  }, {
+    "id" : "NM8Q8CZO",
+    "columnName" : "Integer",
+    "name" : "Integer",
+    "dataType" : {
+      "typeId" : "Integer"
+    },
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "columnKind" : "physical",
+    "isAutoIncrement" : false
+  }, {
+    "id" : "ZF0L7ZC6",
+    "columnName" : "Decimal",
+    "name" : "Decimal",
+    "dataType" : {
+      "typeId" : "Decimal"
+    },
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "columnKind" : "physical",
+    "isAutoIncrement" : false
+  }, {
+    "id" : "DJXYOGFI",
+    "columnName" : "Boolean",
+    "name" : "Boolean",
+    "dataType" : {
+      "typeId" : "Boolean"
+    },
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "columnKind" : "physical",
+    "isAutoIncrement" : false
+  }, {
+    "id" : "SUWCMQNQ",
+    "columnName" : "String",
+    "name" : "String",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "columnKind" : "physical",
+    "isAutoIncrement" : false
+  }, {
+    "id" : "FP2X6Q2C",
+    "columnName" : "Date",
+    "name" : "Date",
+    "dataType" : {
+      "typeId" : "Date"
+    },
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "columnKind" : "physical",
+    "isAutoIncrement" : false
+  }, {
+    "id" : "LS4MGREW",
+    "columnName" : "Time",
+    "name" : "Time",
+    "dataType" : {
+      "typeId" : "Time"
+    },
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "columnKind" : "physical",
+    "isAutoIncrement" : false
+  }, {
+    "id" : "MTCKIBJD",
+    "columnName" : "DateTime",
+    "name" : "DateTime",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "columnKind" : "physical",
+    "isAutoIncrement" : false
+  }, {
+    "id" : "WT58XEPF",
+    "columnName" : "phx_created_at",
+    "name" : "创建时间",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "isPrimaryKey" : false,
+    "isBuiltIn" : true,
+    "columnKind" : "physical",
+    "isAutoIncrement" : false
+  }, {
+    "id" : "V1K701MB",
+    "columnName" : "phx_updated_at",
+    "name" : "更新时间",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "isPrimaryKey" : false,
+    "isBuiltIn" : true,
+    "columnKind" : "physical",
+    "isAutoIncrement" : false
+  }, {
+    "id" : "K71Y3R52",
+    "columnName" : "phx_created_by",
+    "name" : "创建人",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "isPrimaryKey" : false,
+    "isBuiltIn" : true,
+    "columnKind" : "physical",
+    "isAutoIncrement" : false
+  }, {
+    "id" : "JDA8854S",
+    "columnName" : "phx_updated_by",
+    "name" : "更新人",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "isPrimaryKey" : false,
+    "isBuiltIn" : true,
+    "columnKind" : "physical",
+    "isAutoIncrement" : false
+  } ]
+}
