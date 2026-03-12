@@ -1,0 +1,298 @@
+{
+  "id" : "TN9ALE8Z",
+  "name" : "登录",
+  "description" : "",
+  "variables" : [ ],
+  "parameters" : [ {
+    "id" : "V5M9EAIP",
+    "name" : "userName",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "isRequired" : true
+  }, {
+    "id" : "NME49Y2O",
+    "name" : "password",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "isRequired" : true
+  }, {
+    "id" : "Y854JCJN",
+    "name" : "rememberMe",
+    "dataType" : {
+      "typeId" : "Boolean"
+    },
+    "defaultValue" : {
+      "type" : "literal",
+      "literal" : "false"
+    },
+    "isRequired" : true
+  } ],
+  "returnValues" : [ {
+    "id" : "R0XXWKXY",
+    "name" : "message",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "defaultValue" : {
+      "type" : "literal",
+      "literal" : ""
+    }
+  }, {
+    "id" : "NTDPKGBE",
+    "name" : "success",
+    "dataType" : {
+      "typeId" : "Boolean"
+    },
+    "defaultValue" : {
+      "type" : "literal",
+      "literal" : ""
+    }
+  } ],
+  "diagram" : {
+    "nodes" : [ {
+      "id" : "A6JM1EHM",
+      "name" : "开始",
+      "pluginName" : "",
+      "identifier" : "",
+      "attributes" : {
+        "position" : {
+          "x" : 80,
+          "y" : 200
+        }
+      },
+      "isStartPoint" : true
+    }, {
+      "id" : "M4XJHJQ8",
+      "name" : "结束",
+      "pluginName" : "logic-core",
+      "identifier" : "return",
+      "attributes" : {
+        "position" : {
+          "x" : 758.578125,
+          "y" : 335
+        }
+      }
+    }, {
+      "id" : "AFFDW9QY",
+      "pluginName" : "logic-user-management",
+      "identifier" : "user-login",
+      "content" : {
+        "userNameBinding" : {
+          "type" : "expression",
+          "literal" : "",
+          "expression" : "V5M9EAIP"
+        },
+        "passwordBinding" : {
+          "type" : "expression",
+          "literal" : "",
+          "expression" : "NME49Y2O"
+        },
+        "rememberMeBinding" : {
+          "type" : "expression",
+          "literal" : "",
+          "expression" : "Y854JCJN"
+        },
+        "message" : {
+          "type" : "variable",
+          "literal" : "",
+          "variable" : "R0XXWKXY"
+        },
+        "success" : {
+          "type" : "variable",
+          "literal" : "",
+          "variable" : "NTDPKGBE"
+        }
+      },
+      "attributes" : {
+        "position" : {
+          "x" : 458.60304840073576,
+          "y" : 335
+        }
+      }
+    }, {
+      "id" : "N5MMC35R",
+      "pluginName" : "logic-core",
+      "identifier" : "if",
+      "content" : {
+        "conditions" : {
+          "type" : "structure",
+          "structure" : {
+            "ifCase" : {
+              "type" : "structure",
+              "structure" : {
+                "identifier" : {
+                  "type" : "literal",
+                  "literal" : "if"
+                },
+                "conditions" : {
+                  "type" : "structure",
+                  "structure" : {
+                    "conditionType" : {
+                      "type" : "literal",
+                      "literal" : 1
+                    },
+                    "conditionItems" : {
+                      "type" : "structure",
+                      "structure" : [ {
+                        "type" : "structure",
+                        "structure" : {
+                          "id" : {
+                            "type" : "literal",
+                            "literal" : "JS04VUOX"
+                          },
+                          "conditionType" : {
+                            "type" : "literal",
+                            "literal" : 2
+                          },
+                          "operator" : {
+                            "type" : "literal",
+                            "literal" : 17
+                          },
+                          "operand" : {
+                            "type" : "expression",
+                            "literal" : "",
+                            "expression" : "V5M9EAIP"
+                          },
+                          "value" : {
+                            "type" : "literal",
+                            "literal" : ""
+                          }
+                        }
+                      }, {
+                        "type" : "structure",
+                        "structure" : {
+                          "id" : {
+                            "type" : "literal",
+                            "literal" : "POAULQA4"
+                          },
+                          "conditionType" : {
+                            "type" : "literal",
+                            "literal" : 2
+                          },
+                          "operator" : {
+                            "type" : "literal",
+                            "literal" : 17
+                          },
+                          "operand" : {
+                            "type" : "expression",
+                            "literal" : "",
+                            "expression" : "NME49Y2O"
+                          },
+                          "value" : {
+                            "type" : "literal",
+                            "literal" : ""
+                          }
+                        }
+                      } ]
+                    }
+                  }
+                }
+              }
+            },
+            "elseCase" : {
+              "type" : "structure",
+              "structure" : {
+                "identifier" : {
+                  "type" : "literal",
+                  "literal" : "else"
+                }
+              }
+            },
+            "elseIfCases" : {
+              "type" : "structure",
+              "structure" : [ ]
+            }
+          }
+        }
+      },
+      "attributes" : {
+        "position" : {
+          "x" : 170.7890625,
+          "y" : 173.3278316633784
+        }
+      }
+    }, {
+      "id" : "F5XJ4TIK",
+      "pluginName" : "logic-core",
+      "identifier" : "assignment",
+      "content" : {
+        "assignmentDatas" : {
+          "type" : "literal",
+          "literal" : [ {
+            "id" : "YAVHCY4V",
+            "source" : {
+              "type" : "literal",
+              "literal" : false
+            },
+            "target" : {
+              "type" : "variable",
+              "variable" : "NTDPKGBE"
+            }
+          }, {
+            "id" : "QFDB76TP",
+            "source" : {
+              "type" : "literal",
+              "literal" : "用户名或密码不能为空"
+            },
+            "target" : {
+              "type" : "variable",
+              "variable" : "R0XXWKXY"
+            }
+          } ]
+        }
+      },
+      "attributes" : {
+        "position" : {
+          "x" : 458.60304840073576,
+          "y" : 173.3278316633784
+        }
+      }
+    }, {
+      "id" : "OFXQVXNA",
+      "pluginName" : "logic-core",
+      "identifier" : "return",
+      "content" : { },
+      "attributes" : {
+        "position" : {
+          "x" : 722.6030484007358,
+          "y" : 173.3278316633784
+        }
+      }
+    } ],
+    "edges" : [ {
+      "id" : "B1S9K3A2",
+      "sourceId" : "A6JM1EHM",
+      "targetId" : "N5MMC35R",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    }, {
+      "id" : "W0IAPUIG",
+      "sourceId" : "AFFDW9QY",
+      "targetId" : "M4XJHJQ8",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    }, {
+      "id" : "EPU48R8Z",
+      "sourceId" : "N5MMC35R",
+      "sourceAnchorId" : "if",
+      "targetId" : "F5XJ4TIK",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    }, {
+      "id" : "BQWEUM21",
+      "sourceId" : "F5XJ4TIK",
+      "targetId" : "OFXQVXNA",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    }, {
+      "id" : "N61W5C52",
+      "sourceId" : "N5MMC35R",
+      "sourceAnchorId" : "else",
+      "targetId" : "AFFDW9QY",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    } ]
+  }
+}

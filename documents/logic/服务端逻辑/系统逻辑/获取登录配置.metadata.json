@@ -1,0 +1,14 @@
+{
+  "id" : "SHSGSE5D",
+  "name" : "获取登录配置",
+  "description" : "",
+  "parameters" : [ ],
+  "variables" : [ ],
+  "returnValues" : [ {
+    "id" : "Z5LSAV1J",
+    "name" : "config",
+    "dataType" : {
+      "typeId" : "Auto"
+    }
+  } ]
+}

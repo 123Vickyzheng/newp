@@ -1,0 +1,210 @@
+{
+  "type" : "entityModel",
+  "id" : "DCO4SGNF",
+  "dataSourceId" : "BF9XR4IZ",
+  "schema" : null,
+  "name" : "bug5456",
+  "tableName" : "bug5456",
+  "columns" : [ {
+    "type" : "entityColumnModel",
+    "id" : "P3V0Q5UL",
+    "name" : "id",
+    "columnName" : "id",
+    "dataType" : {
+      "typeId" : "Integer"
+    },
+    "dbType" : "INT",
+    "jdbcType" : 4,
+    "columnLength" : 10,
+    "precision" : 10,
+    "scale" : 0,
+    "isPrimaryKey" : true,
+    "isUnique" : true,
+    "isRequired" : true,
+    "isBuiltIn" : true,
+    "defaultValue" : null,
+    "isAutoIncrement" : true,
+    "columnKind" : "physical",
+    "width" : 100
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "C3W4G3C1",
+    "name" : "字段1",
+    "columnName" : "字段1",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "dbType" : "VARCHAR",
+    "jdbcType" : 12,
+    "columnLength" : 255,
+    "precision" : 255,
+    "scale" : 0,
+    "isPrimaryKey" : false,
+    "isUnique" : false,
+    "isRequired" : false,
+    "isBuiltIn" : false,
+    "defaultValue" : null,
+    "isAutoIncrement" : false,
+    "columnKind" : "physical",
+    "width" : 100
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "ZSEQA82I",
+    "name" : "字段2",
+    "columnName" : "字段2",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "dbType" : "VARCHAR",
+    "jdbcType" : 12,
+    "columnLength" : 255,
+    "precision" : 255,
+    "scale" : 0,
+    "isPrimaryKey" : false,
+    "isUnique" : false,
+    "isRequired" : false,
+    "isBuiltIn" : false,
+    "defaultValue" : null,
+    "isAutoIncrement" : false,
+    "columnKind" : "physical",
+    "width" : 100
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "GLYAAMQG",
+    "name" : "字段3",
+    "columnName" : "字段3",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "dbType" : "VARCHAR",
+    "jdbcType" : 12,
+    "columnLength" : 255,
+    "precision" : 255,
+    "scale" : 0,
+    "isPrimaryKey" : false,
+    "isUnique" : false,
+    "isRequired" : false,
+    "isBuiltIn" : false,
+    "defaultValue" : null,
+    "isAutoIncrement" : false,
+    "columnKind" : "physical",
+    "width" : 100
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "IWFOHHHE",
+    "name" : "字段4",
+    "columnName" : "字段4",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "dbType" : "VARCHAR",
+    "jdbcType" : 12,
+    "columnLength" : 255,
+    "precision" : 255,
+    "scale" : 0,
+    "isPrimaryKey" : false,
+    "isUnique" : false,
+    "isRequired" : false,
+    "isBuiltIn" : false,
+    "defaultValue" : null,
+    "isAutoIncrement" : false,
+    "columnKind" : "physical",
+    "width" : 100
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "ZR4GWVGD",
+    "name" : "创建时间",
+    "columnName" : "phx_created_at",
+    "dataType" : {
+      "typeId" : "DateTime"
+    },
+    "dbType" : "DATETIME",
+    "jdbcType" : 93,
+    "columnLength" : 19,
+    "precision" : 19,
+    "scale" : 0,
+    "isPrimaryKey" : false,
+    "isUnique" : false,
+    "isRequired" : true,
+    "isBuiltIn" : true,
+    "defaultValue" : "CURRENT_TIMESTAMP",
+    "isAutoIncrement" : false,
+    "columnKind" : "physical",
+    "width" : 180
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "I8BV75L3",
+    "name" : "更新时间",
+    "columnName" : "phx_updated_at",
+    "dataType" : {
+      "typeId" : "DateTime"
+    },
+    "dbType" : "DATETIME",
+    "jdbcType" : 93,
+    "columnLength" : 19,
+    "precision" : 19,
+    "scale" : 0,
+    "isPrimaryKey" : false,
+    "isUnique" : false,
+    "isRequired" : true,
+    "isBuiltIn" : true,
+    "defaultValue" : "CURRENT_TIMESTAMP",
+    "isAutoIncrement" : false,
+    "columnKind" : "physical",
+    "width" : 180
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "DD59PFTL",
+    "name" : "创建人",
+    "columnName" : "phx_created_by",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "dbType" : "VARCHAR",
+    "jdbcType" : 12,
+    "columnLength" : 255,
+    "precision" : 255,
+    "scale" : 0,
+    "isPrimaryKey" : false,
+    "isUnique" : false,
+    "isRequired" : false,
+    "isBuiltIn" : true,
+    "defaultValue" : null,
+    "isAutoIncrement" : false,
+    "columnKind" : "physical",
+    "width" : 100
+  }, {
+    "type" : "entityColumnModel",
+    "id" : "MXUKSVMM",
+    "name" : "更新人",
+    "columnName" : "phx_updated_by",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "dbType" : "VARCHAR",
+    "jdbcType" : 12,
+    "columnLength" : 255,
+    "precision" : 255,
+    "scale" : 0,
+    "isPrimaryKey" : false,
+    "isUnique" : false,
+    "isRequired" : false,
+    "isBuiltIn" : true,
+    "defaultValue" : null,
+    "isAutoIncrement" : false,
+    "columnKind" : "physical",
+    "width" : 100
+  } ],
+  "columnExtensionLoaded" : true,
+  "indexes" : [ {
+    "indexName" : "PRIMARY",
+    "isUnique" : true,
+    "isPrimary" : true,
+    "isUnEditable" : null,
+    "description" : "主键索引",
+    "indexColumns" : [ {
+      "columnId" : "P3V0Q5UL",
+      "order" : "ASC"
+    } ]
+  } ]
+}

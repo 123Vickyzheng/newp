@@ -1,0 +1,107 @@
+{
+  "id" : "DCO4SGNF",
+  "dataSourceId" : "BF9XR4IZ",
+  "schema" : null,
+  "tableName" : "bug5456",
+  "name" : "bug5456",
+  "columns" : [ {
+    "id" : "P3V0Q5UL",
+    "columnName" : "id",
+    "name" : "id",
+    "dataType" : {
+      "typeId" : "Integer"
+    },
+    "isPrimaryKey" : true,
+    "isBuiltIn" : true,
+    "columnKind" : "physical",
+    "isAutoIncrement" : true
+  }, {
+    "id" : "C3W4G3C1",
+    "columnName" : "字段1",
+    "name" : "字段1",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "columnKind" : "physical",
+    "isAutoIncrement" : false
+  }, {
+    "id" : "ZSEQA82I",
+    "columnName" : "字段2",
+    "name" : "字段2",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "columnKind" : "physical",
+    "isAutoIncrement" : false
+  }, {
+    "id" : "GLYAAMQG",
+    "columnName" : "字段3",
+    "name" : "字段3",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "columnKind" : "physical",
+    "isAutoIncrement" : false
+  }, {
+    "id" : "IWFOHHHE",
+    "columnName" : "字段4",
+    "name" : "字段4",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "isPrimaryKey" : false,
+    "isBuiltIn" : false,
+    "columnKind" : "physical",
+    "isAutoIncrement" : false
+  }, {
+    "id" : "ZR4GWVGD",
+    "columnName" : "phx_created_at",
+    "name" : "创建时间",
+    "dataType" : {
+      "typeId" : "DateTime"
+    },
+    "isPrimaryKey" : false,
+    "isBuiltIn" : true,
+    "columnKind" : "physical",
+    "isAutoIncrement" : false
+  }, {
+    "id" : "I8BV75L3",
+    "columnName" : "phx_updated_at",
+    "name" : "更新时间",
+    "dataType" : {
+      "typeId" : "DateTime"
+    },
+    "isPrimaryKey" : false,
+    "isBuiltIn" : true,
+    "columnKind" : "physical",
+    "isAutoIncrement" : false
+  }, {
+    "id" : "DD59PFTL",
+    "columnName" : "phx_created_by",
+    "name" : "创建人",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "isPrimaryKey" : false,
+    "isBuiltIn" : true,
+    "columnKind" : "physical",
+    "isAutoIncrement" : false
+  }, {
+    "id" : "MXUKSVMM",
+    "columnName" : "phx_updated_by",
+    "name" : "更新人",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "isPrimaryKey" : false,
+    "isBuiltIn" : true,
+    "columnKind" : "physical",
+    "isAutoIncrement" : false
+  } ]
+}

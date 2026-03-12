@@ -1,0 +1,53 @@
+{
+  "id" : "TN9ALE8Z",
+  "name" : "登录",
+  "description" : "",
+  "parameters" : [ {
+    "id" : "V5M9EAIP",
+    "name" : "userName",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "isRequired" : true
+  }, {
+    "id" : "NME49Y2O",
+    "name" : "password",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "isRequired" : true
+  }, {
+    "id" : "Y854JCJN",
+    "name" : "rememberMe",
+    "dataType" : {
+      "typeId" : "Boolean"
+    },
+    "defaultValue" : {
+      "type" : "literal",
+      "literal" : "false"
+    },
+    "isRequired" : true
+  } ],
+  "variables" : [ ],
+  "returnValues" : [ {
+    "id" : "R0XXWKXY",
+    "name" : "message",
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "defaultValue" : {
+      "type" : "literal",
+      "literal" : ""
+    }
+  }, {
+    "id" : "NTDPKGBE",
+    "name" : "success",
+    "dataType" : {
+      "typeId" : "Boolean"
+    },
+    "defaultValue" : {
+      "type" : "literal",
+      "literal" : ""
+    }
+  } ]
+}

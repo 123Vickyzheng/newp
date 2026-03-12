@@ -1,0 +1,75 @@
+{
+  "id" : "SHSGSE5D",
+  "name" : "获取登录配置",
+  "description" : "",
+  "variables" : [ ],
+  "parameters" : [ ],
+  "returnValues" : [ {
+    "id" : "Z5LSAV1J",
+    "name" : "config",
+    "dataType" : {
+      "typeId" : "Auto"
+    }
+  } ],
+  "diagram" : {
+    "nodes" : [ {
+      "id" : "HWFPCPBK",
+      "name" : "开始",
+      "pluginName" : "",
+      "identifier" : "",
+      "attributes" : {
+        "position" : {
+          "x" : 80,
+          "y" : 200
+        }
+      },
+      "isStartPoint" : true
+    }, {
+      "id" : "VB791WMQ",
+      "name" : "结束",
+      "pluginName" : "logic-core",
+      "identifier" : "return",
+      "attributes" : {
+        "position" : {
+          "x" : 800,
+          "y" : 200
+        }
+      }
+    }, {
+      "id" : "NFZHOWCV",
+      "pluginName" : "logic-user-management",
+      "identifier" : "get-login-config",
+      "content" : {
+        "configOutput" : {
+          "type" : "variable",
+          "literal" : {
+            "enableThirdPartyLogin" : null,
+            "thirdPartyLoginConfig" : {
+              "loginData" : { }
+            }
+          },
+          "variable" : "Z5LSAV1J"
+        }
+      },
+      "attributes" : {
+        "position" : {
+          "x" : 356,
+          "y" : 200
+        }
+      }
+    } ],
+    "edges" : [ {
+      "id" : "OAIGY6K7",
+      "sourceId" : "HWFPCPBK",
+      "targetId" : "NFZHOWCV",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    }, {
+      "id" : "BDHR5F80",
+      "sourceId" : "NFZHOWCV",
+      "targetId" : "VB791WMQ",
+      "sourcePosition" : "right",
+      "targetPosition" : "left"
+    } ]
+  }
+}
