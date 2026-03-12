@@ -70,7 +70,19 @@
     }
   },
   "platform" : "pc",
-  "variables" : [ ],
+  "variables" : [ {
+    "id" : "WCZBXL3Z",
+    "name" : "参数1",
+    "defaultValue" : {
+      "type" : "literal",
+      "literal" : ""
+    },
+    "dataType" : {
+      "typeId" : "String"
+    },
+    "description" : "",
+    "isParameter" : true
+  } ],
   "events" : [ ],
   "logics" : [ ],
   "description" : "",
